@@ -1,5 +1,6 @@
 package main
 
 func main() {
-	repl()
+	config := initConfig()
+	repl(config)
 }
